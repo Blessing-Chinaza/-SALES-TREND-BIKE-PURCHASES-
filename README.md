@@ -38,7 +38,7 @@ The data was carefully cleaned to prepare it for storytelling:
 - **Age brackets created** using nested IF statements:  
   - 0–31 → Adolescent  
   - 31–54 → Middle Age  
-  - >54 → Old  
+  - greater than 54 → Old  
 
 This step transformed raw data into a structured foundation for meaningful insights.
 
@@ -66,7 +66,7 @@ Middle Age customers dominate bike purchases.
 This group balances financial stability with health awareness, making bikes both affordable and desirable.  
 Older adults follow, while adolescents purchase the least, reflecting limited independence or resources.  
 
-![Age Bracket Chart](images/age_bracket_chart.png))
+![Age Bracket Chart](images/age_bracket_chart.png)
 
 ---
 
@@ -74,52 +74,74 @@ Older adults follow, while adolescents purchase the least, reflecting limited in
 The dashboards bring these insights together with interactive filters:
 
 ### General Dashboard
-![General Dashboard](images/general_dashboard.png))  
+
+![General Dashboard](images/general_dashboard.png)
+
 **Key finding:** The general dashboard provides a broad overview of purchasing behavior. It highlights how age, income, and commute distance intersect, showing that middle-aged customers with moderate incomes are the most consistent buyers. It also reveals that cultural and lifestyle differences across regions strongly shape bike ownership patterns.
 
 ---
 
 ### Graduate Degree, Single Customers
-- **North America**:  
+- **North America**:
+  
 ![North America Single Graduate](images/north_america_single_graduate.png)  
+
 **Key finding:** Middle-aged men commuting 2–5 miles dominate purchases. This reflects bikes as practical urban tools, chosen for efficiency in cities where distances are manageable. It also suggests that education and lifestyle combine to make cycling a rational choice for this group.  
 
-- **Europe**:  
-![Europe Single Graduate](images/europe_single_graduate.png)    
+- **Europe**:
+  
+![Europe Single Graduate](images/europe_single_graduate.png)  
+
 **Key finding:** Middle-aged women with 0–1 mile commutes lead. Europe’s compact city design makes bikes ideal for short trips, and cultural emphasis on sustainability reinforces this choice. The data shows how education and gender intersect to shape commuting habits.  
 
-- **Pacific**:  
+- **Pacific**:
+  
 ![Pacific Single Graduate](images/pacific_single_graduate.png) 
+
 **Key finding:** Mirrors Europe, with women and short commutes driving purchases. Here, affordability and lifestyle blend, showing bikes as both practical and culturally embraced. This highlights how regional infrastructure and social norms influence ownership.  
 
 ---
 
 ### High School Graduates
-- **Pacific**:  
-![Pacific Single High school](images/pacific_single_high_school.png)    
+
+- **Pacific**:
+  
+![Pacific Single High school](images/pacific_single_high_school.png)  
+
 **Key finding:** Single males dominate purchases, driven by affordability. Bikes represent accessible mobility without the financial burden of cars. This underscores how education level and income constraints shape transport decisions.  
 
-- **North America**:  
-![North America Single High school](images/north_america_single_high_school.png)    
+- **North America**:
+  
+![North America Single High school](images/north_america_single_high_school.png)  
+
 **Key finding:** Single females dominate, but 5–10 mile commuters show the lowest purchases. Longer distances discourage bike ownership, pointing to reliance on cars or public transport. This reflects how geography and infrastructure limit cycling adoption.  
 
-- **Europe**:  
-![Europe Single High School](images/europe_single_high_school.png)    
+- **Europe**:
+  
+![Europe Single High School](images/europe_single_high_school.png)  
+
 **Key finding:** Middle-aged males with 0–1 mile commutes lead. Bikes here are practical short-trip solutions, supported by Europe’s cycling-friendly infrastructure. The data shows how cultural norms and city design encourage bike use even among less-educated groups.  
 
 ---
 
 ### Married Customers (Graduate Degree)
-- **Europe**:  
-![Europe Married Graduate](images/europe_married_graduate.png)    
+
+- **Europe**:
+  
+![Europe Married Graduate](images/europe_married_graduate.png) 
+
 **Key finding:** Married men dominate, especially in 0–1 mile commutes. Older age groups buy the least, suggesting lifestyle shifts away from cycling as responsibilities grow. This highlights how family status influences transport choices.  
 
-- **North America**:  
+- **North America**:
+   
 ![North America Married Graduate](images/north_america_married_graduate.png)  
+
 **Key finding:** Married customers show the highest “No” purchases among 5–10 mile commuters. Yet middle-aged buyers stand out, balancing family life with practical transport needs. This reveals how distance and lifestyle pressures reduce bike adoption.  
 
-- **Pacific**:  
-![Pacific Married Graduate](images/pacific_married_graduate.png)  
+- **Pacific**:
+  
+![Pacific Married Graduate](images/pacific_married_graduate.png) 
+
 **Key finding:** Married women lead, with 5–10 miles and middle age being the strongest categories. Bikes here are embraced as family-friendly, affordable, and health-conscious choices. This reflects how cultural attitudes toward wellness and affordability drive ownership.  
 
 ---
